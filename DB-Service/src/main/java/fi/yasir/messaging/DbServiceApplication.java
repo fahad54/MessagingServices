@@ -2,10 +2,10 @@ package fi.yasir.messaging;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 
-@EnableDiscoveryClient
+@EnableEurekaClient
 @SpringBootApplication(scanBasePackages = {"fi.yasir"})
 public class DbServiceApplication {
 
